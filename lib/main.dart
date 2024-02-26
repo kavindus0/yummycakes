@@ -15,7 +15,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.amber,
       ),
-      home: MaterialApp(
+      home: const MaterialApp(
         debugShowCheckedModeBanner: false,
         home: SafeArea(child: HomeInit()),
       ),
