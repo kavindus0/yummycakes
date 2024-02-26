@@ -2,7 +2,7 @@
 
 This project is the official Flutter app for Yummy Cakes, a bakery specializing in delightful cakes for all occasions.
 
-Getting Started:
+## Getting Started:
 
 Clone the repository: git clone https://github.com/kavindus0/yummycakes.git
 
