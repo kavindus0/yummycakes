@@ -6,18 +6,22 @@ class HomeInit extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      color: Colors.white,
+      color: Colors.black,
       child: Column(
         mainAxisAlignment: MainAxisAlignment.spaceBetween,
         children: [
           Container(
             height: 100,
-            color: Colors.red,
+            color: Colors.black12,
           ),
-          Image.asset('assets/logo.jpeg'),
+          Image.asset(
+            'asset/img/logo/logo.jpeg',
+            width: 200,
+            height: 200,
+          ),
           Container(
             height: 100,
-            color: Colors.green,
+            color: Colors.black38,
           ),
         ],
       ),
