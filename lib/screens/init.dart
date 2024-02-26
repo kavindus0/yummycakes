@@ -19,9 +19,16 @@ class HomeInit extends StatelessWidget {
             width: 200,
             height: 200,
           ),
-          Container(
-            height: 100,
-            color: Colors.black38,
+          SizedBox(
+            width: 200,
+            child: TextButton(
+              onPressed: () {},
+              style: ButtonStyle(
+                foregroundColor: MaterialStateProperty.all<Color>(Colors.black),
+                backgroundColor: MaterialStateProperty.all<Color>(Colors.white),
+              ),
+              child: Text('Login'),
+            ),
           ),
         ],
       ),
