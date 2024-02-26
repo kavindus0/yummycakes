@@ -1,16 +1,26 @@
-# yummycakes
+# Flutter Project - Yummy Cakes App
 
-Store App
+This project is the official Flutter app for Yummy Cakes, a bakery specializing in delightful cakes for all occasions.
 
-## Getting Started
+Getting Started:
 
-This project is a starting point for a Flutter application.
+Clone the repository: git clone https://github.com/kavindus0/yummycakes.git
 
-A few resources to get you started if this is your first Flutter project:
+Install dependencies: Navigate to the project directory and run flutter pub get.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+Run the app: Execute flutter run to launch the app on your preferred device or simulator.
+Project Structure:
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+lib: Contains the application's core logic and UI code.
+assets: Stores images, fonts, and other resources used in the app.
+pubspec.yaml: Defines project dependencies and configurations.
+Contributing:
+
+We encourage contributions from the community. Please follow these guidelines:
+
+Fork the repository and create a pull request for your changes.
+Ensure adherence to coding standards and best practices.
+Include clear and concise documentation for your contributions.
+License:
+
+This project is licensed under the MIT License. For more information, see the LICENSE file.
