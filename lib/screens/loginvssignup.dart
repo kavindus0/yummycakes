@@ -34,18 +34,21 @@ class SignInOr extends StatelessWidget {
             children: [
               SizedBox(height: MediaQuery.of(context).size.height * 0.35),
               TextButton(
-                  style: ButtonStyle(
-                    backgroundColor:
-                        Colors.blue as MaterialStateProperty<Color?>?,
-                  ),
-                  onPressed: () {},
+                style: ButtonStyle(
+                  backgroundColor: MaterialStateProperty.all(Color(0xFF0D47A1)),
+                ),
+                onPressed: () {},
+                child: Padding(
+                  padding: EdgeInsets.fromLTRB(15, 4, 15, 4),
                   child: Text(
                     "Sign In",
                     style: TextStyle(
                       fontSize: 30,
                       color: Colors.white,
                     ),
-                  )),
+                  ),
+                ),
+              ),
               SizedBox(height: MediaQuery.of(context).size.height * 0.25),
               TextButton(onPressed: () {}, child: Text('Sign In')),
               SizedBox(height: MediaQuery.of(context).size.height * 0.25),
