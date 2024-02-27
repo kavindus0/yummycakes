@@ -1,4 +1,8 @@
 import 'package:flutter/material.dart';
+import '../screens/login.dart';
+
+import '../screens/signup.dart';
+import '../screens/loginvssignup.dart';
 
 class HomeInit extends StatelessWidget {
   const HomeInit({Key? key}) : super(key: key);
@@ -24,7 +28,12 @@ class HomeInit extends StatelessWidget {
             child: Padding(
               padding: const EdgeInsets.symmetric(vertical: 25),
               child: TextButton(
-                onPressed: () {},
+                onPressed: () {
+                  Navigator.push(
+                      context,
+                      MaterialPageRoute(
+                          builder: (context) => const SignInOr()));
+                },
                 style: ButtonStyle(
                   foregroundColor:
                       MaterialStateProperty.all<Color>(Colors.black),
