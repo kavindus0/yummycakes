@@ -21,13 +21,18 @@ class HomeInit extends StatelessWidget {
           ),
           SizedBox(
             width: 200,
-            child: TextButton(
-              onPressed: () {},
-              style: ButtonStyle(
-                foregroundColor: MaterialStateProperty.all<Color>(Colors.black),
-                backgroundColor: MaterialStateProperty.all<Color>(Colors.white),
+            child: Padding(
+              padding: const EdgeInsets.symmetric(vertical: 25),
+              child: TextButton(
+                onPressed: () {},
+                style: ButtonStyle(
+                  foregroundColor:
+                      MaterialStateProperty.all<Color>(Colors.black),
+                  backgroundColor:
+                      MaterialStateProperty.all<Color>(Colors.white),
+                ),
+                child: Text('Login'),
               ),
-              child: Text('Login'),
             ),
           ),
         ],
