@@ -31,7 +31,7 @@ class HomeInit extends StatelessWidget {
                   backgroundColor:
                       MaterialStateProperty.all<Color>(Colors.white),
                 ),
-                child: Text('Login'),
+                child: Text('Get Start With Us'),
               ),
             ),
           ),
