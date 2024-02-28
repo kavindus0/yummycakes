@@ -1,6 +1,6 @@
+import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import '../screens/login.dart';
-
 import '../screens/signup.dart';
 import '../screens/loginvssignup.dart';
 
@@ -14,14 +14,35 @@ class HomeInit extends StatelessWidget {
       child: Column(
         mainAxisAlignment: MainAxisAlignment.spaceBetween,
         children: [
-          Container(
-            height: 100,
-            color: Colors.black12,
+          SizedBox.fromSize(
+            size: Size(0, 1),
+          ),
+          const DefaultTextStyle(
+            style: TextStyle(
+              color: Colors.white,
+              fontSize: 20,
+              textBaseline: TextBaseline.alphabetic,
+              fontStyle: FontStyle.normal,
+            ),
+            child: Text(textAlign: TextAlign.center, "Welcome"),
           ),
           Image.asset(
             'asset/img/logo/logo.jpeg',
-            width: 200,
-            height: 200,
+            width: 400,
+            height: 400,
+          ),
+          const DefaultTextStyle(
+            style: TextStyle(
+              color: Colors.white,
+              fontSize: 20,
+              textBaseline: TextBaseline.alphabetic,
+              fontStyle: FontStyle.normal,
+            ),
+            child: Text(
+              textAlign: TextAlign.center,
+              "We make cakes for people who love cake.\n" +
+                  "Choose from our range of flavors and designs, or go totally custom.",
+            ),
           ),
           SizedBox(
             width: 200,
@@ -40,7 +61,7 @@ class HomeInit extends StatelessWidget {
                   backgroundColor:
                       MaterialStateProperty.all<Color>(Colors.white),
                 ),
-                child: Text('Get Start With Us'),
+                child: const Text('Get Start With Us'),
               ),
             ),
           ),
