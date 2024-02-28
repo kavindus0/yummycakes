@@ -7,16 +7,25 @@ class HomePageScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      debugShowCheckedModeBanner: false,
-      home: SafeArea(
-          child: Scaffold(
+      debugShowCheckedModeBanner: true,
+      home: Scaffold(
         appBar: AppBar(
-          title: const Text('Home Page'),
+          title: const Row(
+            children: [
+              IconButton(
+                icon: Icon(Icons.arrow_back_ios),
+                onPressed: null,
+              ),
+              Spacer(),
+              Text('Home Page'),
+              Spacer()
+            ],
+          ),
         ),
         body: const Center(
-          child: Text('Home Page'),
+          child: Text('Homes Page'),
         ),
-      )),
+      ),
     );
   }
 }
