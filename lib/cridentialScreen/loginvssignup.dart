@@ -40,7 +40,12 @@ class SignInOr extends StatelessWidget {
                     backgroundColor:
                         MaterialStateProperty.all(Color(0xFF0D47A1)),
                   ),
-                  onPressed: () {},
+                  onPressed: () {
+                    Navigator.push(
+                        context,
+                        MaterialPageRoute(
+                            builder: (context) => HomePageScreen()));
+                  },
                   child: Padding(
                     padding: EdgeInsets.fromLTRB(15, 4, 15, 4),
                     child: Text(
@@ -54,14 +59,7 @@ class SignInOr extends StatelessWidget {
                 ),
               ),
               SizedBox(height: MediaQuery.of(context).size.height * 0.25),
-              TextButton(
-                  onPressed: () {
-                    Navigator.push(
-                        context,
-                        MaterialPageRoute(
-                            builder: (context) => HomePageScreen()));
-                  },
-                  child: Text('Sign In')),
+              TextButton(onPressed: () {}, child: Text('Sign ssIn')),
               SizedBox(height: MediaQuery.of(context).size.height * 0.25),
             ],
           ),
