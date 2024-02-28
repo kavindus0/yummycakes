@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/src/material/colors.dart';
+import 'package:yummycakes/homePage/init.dart';
 
 class SignInOr extends StatelessWidget {
   const SignInOr({super.key});
@@ -53,7 +54,14 @@ class SignInOr extends StatelessWidget {
                 ),
               ),
               SizedBox(height: MediaQuery.of(context).size.height * 0.25),
-              TextButton(onPressed: () {}, child: Text('Sign In')),
+              TextButton(
+                  onPressed: () {
+                    Navigator.push(
+                        context,
+                        MaterialPageRoute(
+                            builder: (context) => HomePageScreen()));
+                  },
+                  child: Text('Sign In')),
               SizedBox(height: MediaQuery.of(context).size.height * 0.25),
             ],
           ),

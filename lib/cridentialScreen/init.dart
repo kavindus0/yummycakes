@@ -1,8 +1,7 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import '../screens/login.dart';
-import '../screens/signup.dart';
-import '../screens/loginvssignup.dart';
+import '../cridentialScreen/signup.dart';
+import '../cridentialScreen/loginvssignup.dart';
 
 class HomeInit extends StatelessWidget {
   const HomeInit({Key? key}) : super(key: key);
