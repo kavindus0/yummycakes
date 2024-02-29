@@ -1,11 +1,8 @@
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:google_fonts/google_fonts.dart';
-import '../cridentialScreen/signup.dart';
 import '../cridentialScreen/loginvssignup.dart';
 
 class HomeInit extends StatelessWidget {
-  const HomeInit({Key? key}) : super(key: key);
+  const HomeInit({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -15,7 +12,7 @@ class HomeInit extends StatelessWidget {
         mainAxisAlignment: MainAxisAlignment.spaceBetween,
         children: [
           SizedBox.fromSize(
-            size: Size(0, 1),
+            size: const Size(0, 1),
           ),
           const DefaultTextStyle(
             style: TextStyle(
@@ -49,8 +46,8 @@ class HomeInit extends StatelessWidget {
               padding: EdgeInsets.all(8.0),
               child: Text(
                 textAlign: TextAlign.center,
-                "We make cakes for people who love cake.\n" +
-                    "Choose from our range of flavors and designs, or go totally custom.",
+                "We make cakes for people who love cake.\n"
+                "Choose from our range of flavors and designs, or go totally custom.",
               ),
             ),
           ),
