@@ -1,5 +1,6 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:google_fonts/google_fonts.dart';
 import '../cridentialScreen/signup.dart';
 import '../cridentialScreen/loginvssignup.dart';
 
@@ -23,7 +24,14 @@ class HomeInit extends StatelessWidget {
               textBaseline: TextBaseline.alphabetic,
               fontStyle: FontStyle.normal,
             ),
-            child: Text(textAlign: TextAlign.center, "Welcome"),
+            child: Text(
+              textAlign: TextAlign.center,
+              "WELCOME",
+              style: TextStyle(
+                fontWeight: FontWeight.bold,
+                fontSize: 30,
+              ),
+            ),
           ),
           Image.asset(
             'asset/img/logo/logo.jpeg',
@@ -37,10 +45,13 @@ class HomeInit extends StatelessWidget {
               textBaseline: TextBaseline.alphabetic,
               fontStyle: FontStyle.normal,
             ),
-            child: Text(
-              textAlign: TextAlign.center,
-              "We make cakes for people who love cake.\n" +
-                  "Choose from our range of flavors and designs, or go totally custom.",
+            child: Padding(
+              padding: EdgeInsets.all(8.0),
+              child: Text(
+                textAlign: TextAlign.center,
+                "We make cakes for people who love cake.\n" +
+                    "Choose from our range of flavors and designs, or go totally custom.",
+              ),
             ),
           ),
           SizedBox(
