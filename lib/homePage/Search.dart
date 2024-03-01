@@ -10,6 +10,8 @@ class SearchCakes extends StatefulWidget {
 class _SearchCakesState extends State<SearchCakes> {
   @override
   Widget build(BuildContext context) {
-    return const Placeholder();
+    return const Placeholder(
+      color: Colors.cyan,
+    );
   }
 }
