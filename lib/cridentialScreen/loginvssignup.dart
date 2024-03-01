@@ -15,7 +15,7 @@ class SignInOr extends StatelessWidget {
         title: const Text('Sign In or Sign Up'),
       ),
       body: Container(
-        decoration: BoxDecoration(
+        decoration: const BoxDecoration(
           gradient: LinearGradient(
             begin: Alignment.bottomLeft,
             end: Alignment.topRight,
@@ -34,32 +34,30 @@ class SignInOr extends StatelessWidget {
           child: Column(
             children: [
               SizedBox(height: MediaQuery.of(context).size.height * 0.35),
-              Container(
-                child: TextButton(
-                  style: ButtonStyle(
-                    backgroundColor:
-                        MaterialStateProperty.all(Color(0xFF0D47A1)),
-                  ),
-                  onPressed: () {
-                    Navigator.push(
-                        context,
-                        MaterialPageRoute(
-                            builder: (context) => HomePageScreen()));
-                  },
-                  child: Padding(
-                    padding: EdgeInsets.fromLTRB(15, 4, 15, 4),
-                    child: Text(
-                      "Sign In",
-                      style: TextStyle(
-                        fontSize: 30,
-                        color: Colors.white,
-                      ),
+              TextButton(
+                style: ButtonStyle(
+                  backgroundColor:
+                      MaterialStateProperty.all(const Color(0xFF0D47A1)),
+                ),
+                onPressed: () {
+                  Navigator.push(
+                      context,
+                      MaterialPageRoute(
+                          builder: (context) => const HomePageScreen()));
+                },
+                child: const Padding(
+                  padding: EdgeInsets.fromLTRB(15, 4, 15, 4),
+                  child: Text(
+                    "Sign In",
+                    style: TextStyle(
+                      fontSize: 30,
+                      color: Colors.white,
                     ),
                   ),
                 ),
               ),
               SizedBox(height: MediaQuery.of(context).size.height * 0.25),
-              TextButton(onPressed: () {}, child: Text('Sign ssIn')),
+              TextButton(onPressed: () {}, child: const Text('Sign ssIn')),
               SizedBox(height: MediaQuery.of(context).size.height * 0.25),
             ],
           ),
