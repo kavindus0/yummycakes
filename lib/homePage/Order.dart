@@ -10,6 +10,8 @@ class CakeOrders extends StatefulWidget {
 class _CakeOrdersState extends State<CakeOrders> {
   @override
   Widget build(BuildContext context) {
-    return const Placeholder();
+    return const Placeholder(
+      color: Colors.brown,
+    );
   }
 }
