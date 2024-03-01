@@ -38,7 +38,7 @@ class HomeInit extends StatelessWidget {
           const DefaultTextStyle(
             style: TextStyle(
               color: Colors.white,
-              fontSize: 20,
+              fontSize: 19.2,
               textBaseline: TextBaseline.alphabetic,
               fontStyle: FontStyle.normal,
             ),
