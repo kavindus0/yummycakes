@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:flutter/src/material/colors.dart';
 import 'package:yummycakes/homePage/init.dart';
 
 class SignInOr extends StatelessWidget {
