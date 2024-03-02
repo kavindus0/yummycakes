@@ -20,23 +20,20 @@ class _ProfileState extends State<Profile> {
                 Padding(
                   padding: const EdgeInsets.all(8.0),
                   child: Container(
+                    clipBehavior: Clip.antiAlias,
                     decoration: BoxDecoration(
-                      shape: BoxShape.circle,
-                      border: Border.all(
-                        color: Colors.black,
-                        width: 2,
-                      ),
+                      color: Colors.grey,
+                      borderRadius: BorderRadius.circular(22),
                     ),
-                    child: Text("Profile"),
-                    // Image.asset(
-                    //   'asset/img/profile/pp.png',
-                    //   width: 100,
-                    //   height: 100,
-                    //   fit: BoxFit.cover,
-                    // ),
+                    child: Image.asset(
+                      'asset/img/profile/pp.png',
+                      width: 100,
+                      height: 100,
+                      fit: BoxFit.cover,
+                    ),
                   ),
                 ),
-                Text("Profile"),
+                Text("Profile", s),
               ],
             ),
             Text("Profile"),
