@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import '../cridentialScreen/loginvssignup.dart';
+import '../credentialScreen/loginvssignup.dart';
 
 class HomeInit extends StatelessWidget {
   const HomeInit({super.key});
