@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:yummycakes/cridentialScreen/kValues.dart';
 import 'package:yummycakes/homePage/init.dart';
 
 class SignInOr extends StatelessWidget {
@@ -18,15 +19,7 @@ class SignInOr extends StatelessWidget {
           gradient: LinearGradient(
             begin: Alignment.bottomLeft,
             end: Alignment.topRight,
-            colors: [
-              Color.fromARGB(255, 0, 0, 0),
-              Color.fromARGB(255, 15, 15, 15),
-              Color.fromARGB(255, 99, 99, 99),
-              Color.fromARGB(255, 125, 125, 125),
-              Color.fromARGB(255, 199, 199, 199),
-              Color.fromARGB(255, 210, 210, 210),
-              Color.fromARGB(255, 255, 255, 255),
-            ],
+            colors: kInitPageColorGradient, // Gradient Color Effect Color List
           ),
         ),
         child: Center(
