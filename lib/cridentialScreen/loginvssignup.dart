@@ -7,6 +7,7 @@ class SignInOr extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    var kHeightOfSizedBoxBelow2 = MediaQuery.of(context).size.height * 0.25;
     return Scaffold(
       extendBodyBehindAppBar: true,
       appBar: AppBar(
@@ -48,9 +49,9 @@ class SignInOr extends StatelessWidget {
                   ),
                 ),
               ),
-              SizedBox(height: MediaQuery.of(context).size.height * 0.25),
+              SizedBox(height: kHeightOfSizedBoxBelow2),
               // TextButton(onPressed: () {}, child: const Text('Sign ssIn')),
-              SizedBox(height: MediaQuery.of(context).size.height * 0.25),
+              SizedBox(height: kHeightOfSizedBoxBelow2),
             ],
           ),
         ),
