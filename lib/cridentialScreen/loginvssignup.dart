@@ -49,7 +49,7 @@ class SignInOr extends StatelessWidget {
                 ),
               ),
               SizedBox(height: MediaQuery.of(context).size.height * 0.25),
-              TextButton(onPressed: () {}, child: const Text('Sign ssIn')),
+              // TextButton(onPressed: () {}, child: const Text('Sign ssIn')),
               SizedBox(height: MediaQuery.of(context).size.height * 0.25),
             ],
           ),
