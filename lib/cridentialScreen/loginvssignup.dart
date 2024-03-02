@@ -38,7 +38,7 @@ class SignInOr extends StatelessWidget {
                           builder: (context) => const HomePageScreen()));
                 },
                 child: const Padding(
-                  padding: EdgeInsets.fromLTRB(15, 4, 15, 4),
+                  padding: kedgeInsets,
                   child: Text(
                     "Sign In",
                     style: TextStyle(
