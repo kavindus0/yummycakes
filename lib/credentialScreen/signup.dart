@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'kValues.dart';
+import 'kCredentialValues.dart';
 
 class SignUp extends StatelessWidget {
   const SignUp({Key? key}) : super(key: key);
