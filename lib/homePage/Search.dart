@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'kValues.dart';
 
 class SearchCakes extends StatefulWidget {
   const SearchCakes({super.key});
@@ -10,10 +11,6 @@ class SearchCakes extends StatefulWidget {
 class _SearchCakesState extends State<SearchCakes> {
   @override
   Widget build(BuildContext context) {
-    const String kSearchBarText = "Search...";
-    const Color kSearchBarIconColor = Color(0xFF5F5F5F);
-    const Color kPageBackgroundColor = Color(0xFFF1ECE8);
-    const String kHomePageTextWidgetData = 'Homes Page';
     return const Column(
       children: [
         Padding(
