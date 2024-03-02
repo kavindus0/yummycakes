@@ -10,22 +10,26 @@ class SearchCakes extends StatefulWidget {
 class _SearchCakesState extends State<SearchCakes> {
   @override
   Widget build(BuildContext context) {
+    const String kSearchBarText = "Search...";
+    const Color kSearchBarIconColor = Color(0xFF5F5F5F);
+    const Color kPageBackgroundColor = Color(0xFFF1ECE8);
+    const String kHomePageTextWidgetData = 'Homes Page';
     return const Column(
       children: [
         Padding(
             padding: EdgeInsets.symmetric(horizontal: 16.0),
             child: SearchBar(
-              hintText: ("Search..."),
+              hintText: (kSearchBarText),
               leading: Padding(
                 padding: EdgeInsets.all(8.0),
-                child: Icon(Icons.search_outlined, color: Color(0xFF5F5F5F)),
+                child: Icon(Icons.search_outlined, color: kSearchBarIconColor),
               ),
               elevation: MaterialStatePropertyAll(0.0),
               backgroundColor: MaterialStatePropertyAll(
-                Color(0xFFF1ECE8),
+                kPageBackgroundColor,
               ),
             )),
-        Text('Homes Page'),
+        Text(kHomePageTextWidgetData),
       ],
     );
   }
