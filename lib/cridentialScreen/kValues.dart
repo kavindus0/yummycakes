@@ -11,4 +11,6 @@ const List<Color> kInitPageColorGradient = [
 ];
 
 const kedgeInsets = EdgeInsets.fromLTRB(15, 4, 15, 4);
+
 const kSignUpScreenData = 'Sign Up';
+const kSignInScreenData = 'Sign In';
