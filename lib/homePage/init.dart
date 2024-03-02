@@ -52,12 +52,12 @@ class _HomePageScreenState extends State<HomePageScreen> {
               label: 'Search',
             ),
             BottomNavigationBarItem(
-              icon: Icon(Icons.person),
-              label: 'Profile',
-            ),
-            BottomNavigationBarItem(
               icon: Icon(Icons.featured_play_list),
               label: 'Orders',
+            ),
+            BottomNavigationBarItem(
+              icon: Icon(Icons.person),
+              label: 'Profile',
             ),
           ],
         ),
