@@ -7,7 +7,7 @@ class SignInOr extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    var kHeightOfSizedBoxBelow2 = MediaQuery.of(context).size.height * 0.25;
+    double kHeightOfSizedBoxBelow2 = MediaQuery.of(context).size.height * 0.25;
     return Scaffold(
       extendBodyBehindAppBar: true,
       appBar: AppBar(
