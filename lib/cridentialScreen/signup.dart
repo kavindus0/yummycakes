@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'kValues.dart';
 
 class SignUp extends StatelessWidget {
   const SignUp({Key? key}) : super(key: key);
@@ -7,10 +8,10 @@ class SignUp extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Sign Up'),
+        title: const Text(kSignUpScreenData),
       ),
       body: const Center(
-        child: Text('Sign Up'),
+        child: Text(kSignUpScreenData),
       ),
     );
   }
