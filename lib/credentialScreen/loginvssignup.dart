@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:yummycakes/cridentialScreen/kValues.dart';
+import 'package:yummycakes/credentialScreen/kCredentialValues.dart';
 import 'package:yummycakes/homePage/init.dart';
 
 class SignInOr extends StatelessWidget {
