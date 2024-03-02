@@ -17,8 +17,8 @@ class _HomePageScreenState extends State<HomePageScreen> {
   List<Widget> pages = [
     const HomeMain(),
     const SearchCakes(),
-    const Profile(),
     const CakeOrders(),
+    const Profile(),
   ];
 
   @override
