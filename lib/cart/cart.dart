@@ -27,10 +27,16 @@ class _CartState extends State<Cart> {
       title: ('Cart'),
       home: Scaffold(
         appBar: AppBar(
+          leading: IconButton(
+            onPressed: () {
+              Navigator.pop(context);
+            },
+            icon: Icon(Icons.arrow_back_ios),
+          ),
           title: Text('Cart'),
           backgroundColor: Colors.green,
         ),
-        body: Center(
+        body: const Center(
           child: Text('Cart'),
         ),
       ),
