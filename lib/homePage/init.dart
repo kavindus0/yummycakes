@@ -66,6 +66,7 @@ class _HomePageScreenState extends State<HomePageScreen> {
           backgroundColor: const Color.fromARGB(255, 252, 250, 248),
           title: const Row(
             children: [
+              Text("Find your perfect cake, every time.",style: ,),
               Spacer(),
               IconButton(
                 icon: Icon(Icons.shopping_cart_outlined, color: Colors.black),
