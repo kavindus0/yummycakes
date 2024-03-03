@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:yummycakes/homePage/Order.dart';
 import './Home.dart';
 import 'Profile.dart';
@@ -66,7 +67,10 @@ class _HomePageScreenState extends State<HomePageScreen> {
           backgroundColor: const Color.fromARGB(255, 252, 250, 248),
           title: const Row(
             children: [
-              Text("Find your perfect cake, every time.",style: ,),
+              Text(
+                "Find your perfect cake, every time.",
+                textAlign: TextAlign.left,
+              ),
               Spacer(),
               IconButton(
                 icon: Icon(Icons.shopping_cart_outlined, color: Colors.black),
