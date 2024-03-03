@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:yummycakes/credentialScreen/init.dart';
 import 'package:google_fonts/google_fonts.dart';
+import 'package:yummycakes/cart/cart.dart';
 
 void main() {
   runApp(const MyApp());
@@ -12,6 +13,14 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      initialRoute: '/init',
+      routes: {
+        '/init': (context) => const HomeInit(),
+        '/cart': (context) => Cart(
+              key: Key('cart'),
+            ),
+        //'/login': (context) => const SignInOr(),
+      },
       debugShowCheckedModeBanner: false,
       title: 'Flutter Demo',
       theme: ThemeData(
@@ -19,7 +28,6 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.amber,
       ),
       home: const MaterialApp(
-        debugShowCheckedModeBanner: false,
         home: SafeArea(child: HomeInit()),
       ),
     );
