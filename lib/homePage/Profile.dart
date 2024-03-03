@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import "package:map/map.dart";
 
 class Profile extends StatefulWidget {
   const Profile({super.key});
@@ -33,11 +34,14 @@ class _ProfileState extends State<Profile> {
                     ),
                   ),
                 ),
-                const Text("  Hi! \n  Amdan De Crusay",
+                const Text("  Hi! \n  Thamalsha Piyumi",
                     style: TextStyle(fontSize: 23)),
               ],
             ),
-            const Divider(),
+            Divider(),
+            Stack(
+              children: [Text("data")],
+            ),
             const Text("Profile"),
           ],
         ),
