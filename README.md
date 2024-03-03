@@ -3,15 +3,14 @@
 This project is the official Flutter app for Yummy Cakes, a bakery specializing in delightful cakes for all occasions.
 
 ## Getting Started:
-
-![Simulator Screenshot - iPhone 15 - 2024-03-01 at 22 11 00](https://github.com/kavindus0/yummycakes/assets/126804361/1d8cada7-3382-41ab-b5ed-f09a07b83dd0)
-
+<img align="right" src="https://github.com/kavindus0/yummycakes/assets/126804361/c9866c2a-2419-4904-beb0-47a5be990840">
 
 1. Clone the repository: git clone https://github.com/kavindus0/yummycakes.git
    
 2. Install dependencies: Navigate to the project directory and run flutter pub get.
    
 3. Run the app: Execute flutter run to launch the app on your preferred device or simulator.
+
 
 ## Project Structure:
 
