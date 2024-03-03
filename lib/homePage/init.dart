@@ -3,6 +3,7 @@ import 'package:yummycakes/homePage/Order.dart';
 import './Home.dart';
 import 'Profile.dart';
 import 'Search.dart';
+import 'package:yummycakes/cart/cart.dart';
 
 class HomePageScreen extends StatefulWidget {
   const HomePageScreen({super.key});
@@ -64,16 +65,19 @@ class _HomePageScreenState extends State<HomePageScreen> {
         backgroundColor: const Color.fromARGB(255, 252, 250, 248),
         appBar: AppBar(
           backgroundColor: const Color.fromARGB(255, 252, 250, 248),
-          title: const Row(
+          title: Row(
             children: [
-              Text(
+              const Text(
                 "Find your perfect cake, every time.",
                 textAlign: TextAlign.left,
               ),
-              Spacer(),
+              const Spacer(),
               IconButton(
-                icon: Icon(Icons.shopping_cart_outlined, color: Colors.black),
-                onPressed: null,
+                icon: const Icon(Icons.shopping_cart_outlined,
+                    color: Colors.black),
+                onPressed: () {
+                  Navigator.pushNamed(context, '/cart');
+                },
               ),
             ],
           ),
