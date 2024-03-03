@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:yummycakes/cart/kCart.dart';
 
 class Cart extends StatefulWidget {
   Cart({required Key key}) : super(key: key);
@@ -31,10 +32,10 @@ class _CartState extends State<Cart> {
             onPressed: () {
               Navigator.pop(context);
             },
-            icon: Icon(Icons.arrow_back_ios),
+            icon: const Icon(Icons.arrow_back_ios),
           ),
-          title: Text('Cart'),
-          backgroundColor: Colors.green,
+          title: const Text('Cart'),
+          backgroundColor: kAppBarColor,
         ),
         body: const Center(
           child: Text('Cart'),
