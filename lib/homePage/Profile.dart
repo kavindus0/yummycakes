@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import "package:map/map.dart";
 
 class Profile extends StatefulWidget {
   const Profile({super.key});
