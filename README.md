@@ -9,7 +9,7 @@ This project is the official Flutter app for Yummy Cakes, a bakery specializing 
    
 2. Install dependencies: Navigate to the project directory and run flutter pub get.
    
-3. Run the app: Execute flutter run to launch the app on your preferred device or simulator.
+3. Run the app: Execute flutter run to launch the app on your preferred device.
 
 
 ## Project Structure:
