@@ -19,7 +19,6 @@ class MyApp extends StatelessWidget {
         '/cart': (context) => Cart(
               key: Key('cart'),
             ),
-        //'/login': (context) => const SignInOr(),
       },
       debugShowCheckedModeBanner: false,
       title: 'Flutter Demo',
